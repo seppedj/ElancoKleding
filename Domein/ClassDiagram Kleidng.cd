@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Domein.Klant">
+    <Position X="3.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAgBAAAAAAVQAAQhACAEAgAAAgAAgACAAABAAM=</HashCode>
+      <FileName>Business\Klant.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Domein.Business" Collapsed="true">
+    <Position X="1.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAQAgAEIAAAAAIAAAgABABAAEAkAAAEgAAAg=</HashCode>
+      <FileName>Business\Business.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Domein.Bestelling">
+    <Position X="1.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAACAQAAAAIAAAAAAAAACkAQAAAAAIgAAAAA=</HashCode>
+      <FileName>Business\Bestelling.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Domein.Rug">
+    <Position X="5.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEACIAJAAAACAAAAAAAAAABAACAEA=</HashCode>
+      <FileName>Business\Rug.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Domein.Polsboord">
+    <Position X="7" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAACACAAAAAAQAAAIAgEAgAAAAAAAQAAAAACAAA=</HashCode>
+      <FileName>Business\Polsboord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Domein.Borstzakklep">
+    <Position X="5.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAEABAAIAAAAAAAAAAAAQAAAAACAAA=</HashCode>
+      <FileName>Business\Borstzakklep.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Domein.Ontwerp">
+    <Position X="7" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAEAAABAIAAAAAEAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Business\Ontwerp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Domein.Knoop">
+    <Position X="1.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAASAAAAAAAEQACAAAAAAAABAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Business\Knoop.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Domein.Borduur">
+    <Position X="3.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAACAACAAAAABAEQAAAAABAIAwAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Business\Borduur.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Domein.Stof">
+    <Position X="8.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAACAAAAAAQEQAAAAAAAAIEAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Business\Stof.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Domein.Kraag">
+    <Position X="8.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQEACAAAAAAAAAAAAAAAwIAAAgAAAg=</HashCode>
+      <FileName>Business\Kraag.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Domein.Mouw">
+    <Position X="10.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAADAAAAEAAAEEAAAIAAAAAAAAAAARwAgAAgCAAA=</HashCode>
+      <FileName>Business\Mouw.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Domein.Design">
+    <Position X="10.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACEAEAAAAAAAAAAAAAACAAQAAAAAQA=</HashCode>
+      <FileName>Business\Design.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Domein.Knoopsluiting">
+    <Position X="7" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAABAAAAAAAAAEAAAAIAAAAAAAAAAAAQAAAAACAAA=</HashCode>
+      <FileName>Business\Knoopsluiting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Domein.Borstzak">
+    <Position X="8.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAQAAAAEAAIABAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Business\Borstzak.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Domein.Epaulet">
+    <Position X="5.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAEAAAAIACAAAAAAAAAAQAAAAACAAA=</HashCode>
+      <FileName>Business\Epaulet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Domein.Postcode">
+    <Position X="10.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAgAAAAQAABAAAAAAAAAAAAAAAACEA=</HashCode>
+      <FileName>Business\Postcode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
