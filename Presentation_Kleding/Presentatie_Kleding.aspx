@@ -42,14 +42,14 @@
 					<h2>Kledingconfigurator</h2>
 					<div class="conf">
 						<div class="ItemKeuze">
-                            <button class="container">
+                            <div class="container">
                                 <div class="overlay">
                                     <div class="text">
                                         Hemd
                                     </div>
                                 </div>
                                 <img src="img\VBhemdVierkant.png" alt="">
-                            </button>
+                            </div>
 							<div class="container">
 								<div class="overlay">
 									<div class="text">
