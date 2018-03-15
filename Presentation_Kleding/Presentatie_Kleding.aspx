@@ -21,7 +21,7 @@
 	<meta http-equiv="imagetoolbar" content="false" />
 	<script type="text/javascript" src="script/jquery-1.3.2.min.js"></script>
 	<script type="text/javascript" src="script/init.js"></script>
-    <link rel="stylesheet" href="Opmaak.css" runat="server" />
+    
 
     <link rel="stylesheet" href="Opmaak.css" runat="server" />
 </head>
@@ -47,7 +47,7 @@
                             <div class="container">
                                 <div class="overlay" >
                                     <div class="text" >
-                                        tekst
+                                        <button type="button">hemd</button>
                                     </div>
                                 </div>
                                 <img src="img\VBhemdVierkant.png" alt="">

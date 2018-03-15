@@ -403,13 +403,4 @@ fieldset button {
 	box-sizing: border-box;
 }
 
-asp:single-button
-{
-    height: 100px;
-	width: 100px;;
-	background: #010429;
-	opacity: 0.0;
-	transition: .5s ease;
-	position: absolute;
-}
 
