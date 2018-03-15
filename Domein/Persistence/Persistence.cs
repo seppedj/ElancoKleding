@@ -10,7 +10,7 @@ namespace Domein
     class Persistence
     {
         private string _connectionstring;
-
+		//pikkkk
         public List<Bestelling> getBestelling()
         {
             List<Bestelling> gegevens = new List<Bestelling>();
