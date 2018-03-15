@@ -45,8 +45,8 @@
 					<div class="conf">
 						<div class="ItemKeuze">
                             <div class="container">
-                                <div class="overlay">
-                                    <div class="text">
+                                <div class="overlay" >
+                                    <div class="text" >
                                         tekst
                                     </div>
                                 </div>
