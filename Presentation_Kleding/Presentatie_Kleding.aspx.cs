@@ -13,5 +13,12 @@ namespace Presentation_Kleding
         {
 
         }
+
+        protected void btnHemd_Click(object sender, EventArgs e)
+        {
+          
+        }
+
+        
     }
 }

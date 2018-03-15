@@ -84,6 +84,8 @@ button {
 
 #photos img {
 	position: absolute;
+    top: -21px;
+    left: -234px;
 }
 
 #content {
