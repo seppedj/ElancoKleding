@@ -47,7 +47,7 @@
                             <div class="container">
                                 <div class="overlay">
                                     <div class="text">
-                                        <asp:Button ID="btnHemd" runat="server" Text="Hemd" />
+                                        tekst
                                     </div>
                                 </div>
                                 <img src="img\VBhemdVierkant.png" alt="">
