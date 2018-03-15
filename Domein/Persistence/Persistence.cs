@@ -26,7 +26,7 @@ namespace Domein
 
             //query uitvoeren
             MySqlDataReader Datareader = cmd.ExecuteReader();
-
+            //++++
             while(Datareader.Read())
             {
                 //gegevens uit de database halen
