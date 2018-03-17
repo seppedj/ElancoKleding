@@ -259,9 +259,9 @@ namespace Domein
             return gegevens;
         }
 
-        public List<Mouw> getLangeMauw()
+        public List<LangeMouw> getLangeMouw()
         {
-            List<Mouw> gegevens = new List<Mouw>();
+            List<LangeMouw> gegevens = new List<LangeMouw>();
 
             MySqlConnection conn = new MySqlConnection(_connectionstring);
 
@@ -276,7 +276,7 @@ namespace Domein
                 int id = Convert.ToInt16(Datareader["LangeMouwID"]);
                 string omschrijving = Convert.ToString(Datareader["LangeMouw"]);
 
-                Mouw Mouw = new Mouw(id, omschrijving);
+                LangeMouw Mouw = new LangeMouw(id, omschrijving);
                 gegevens.Add(Mouw);
             }
 
@@ -285,9 +285,9 @@ namespace Domein
             return gegevens;
         }
 
-        public List<Mouw> getKorteMouw()
+        public List<KorteMouw> getKorteMouw()
         {
-            List<Mouw> gegevens = new List<Mouw>();
+            List<KorteMouw> gegevens = new List<KorteMouw>();
 
             MySqlConnection conn = new MySqlConnection(_connectionstring);
 
@@ -302,7 +302,7 @@ namespace Domein
                 int id = Convert.ToInt16(Datareader["KorteMouwID"]);
                 string omschrijving = Convert.ToString(Datareader["KorteMouw"]);
 
-                Mouw Mouw = new Mouw(id, omschrijving);
+                KorteMouw Mouw = new KorteMouw(id, omschrijving);
                 gegevens.Add(Mouw);
             }
 
