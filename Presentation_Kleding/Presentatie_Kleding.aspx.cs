@@ -16,7 +16,7 @@ namespace Presentation_Kleding
 
         protected void btnHemd_Click(object sender, EventArgs e)
         {
-          
+            lblTest.Text = "hallooo jk dsj sdjxk dsbsjhbsfjb sjh bs bdsk di dg i";
         }
 
         

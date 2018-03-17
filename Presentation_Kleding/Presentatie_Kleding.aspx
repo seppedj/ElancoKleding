@@ -26,6 +26,7 @@
     <link rel="stylesheet" href="Opmaak.css" runat="server" />
 </head>
 <body>
+	<form id="form1" runat="server">
 	<div id="bg">
 	</div>
 	<div id="wrapper">
@@ -36,8 +37,7 @@
 				<img style="display: none;" src="img/photo7.jpg" />
 				<img style="display: none;" src="img/photo12.jpg" />
 				<img style="display: none;" src="img/photo10.jpg" />
-				<img style="display: none;" src="img/photo9.jpg" />
-				<img src="img/photo11.jpg" />
+				<img style="display: none;" src="img/photo9.jpg" />&nbsp;
 			</div>
 			<div id="content">
 				<div id="txt">
@@ -91,6 +91,7 @@
 									</div>
 								</div>
 								<img src="img\schouderepauletEvenwijdigVierkant.png" alt="">
+							    <asp:Label ID="lblTest" runat="server" Text="..."></asp:Label>
 							</div>
 							<div class="container">
 								<div class="overlay">
@@ -129,7 +130,7 @@
 						</div>
 					</div>
 				</div>
-			</div>
+				<img src="img/photo11.jpg" /></div>
 		</div>
 		<ul id="nav">
 			<li><a class="none" href="http://www.elanco.be/nl/index.php" title="Over Elanco">Over Elanco</a></li>
@@ -140,6 +141,7 @@
 			<li><a class="active" href="#" title="Kledingconfigurator">Kledingconfigurator</a></li>
 		</ul>
 	</div>
+    </form>
 </body>
 
 </html>
