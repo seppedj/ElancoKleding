@@ -109,6 +109,7 @@
     <Content Include="img\photo9.jpg" />
     <Content Include="img\polsboord_afgerondVierkant.png" />
     <Content Include="img\schouderepauletEvenwijdigVierkant.png" />
+    <Content Include="img\sluitingPatte.png" />
     <Content Include="img\VBhemdVierkant.png" />
     <Content Include="index.html" />
     <Content Include="Opmaak.css" />
