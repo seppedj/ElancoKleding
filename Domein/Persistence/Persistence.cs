@@ -494,7 +494,31 @@ namespace Domein
             return gegevens;
         }
 
+        public List<Mouwsplit> getMouwSplit()
+        {
+            List<Mouwsplit> gegevens = new List<Mouwsplit>();
 
+            MySqlConnection conn = new MySqlConnection(_connectionstring);
+
+            MySqlCommand cmd = new MySqlCommand("SELECT * FROM itn_kledingconf.tblmouwsplit;", conn);
+
+            conn.Open();
+
+            MySqlDataReader Datareader = cmd.ExecuteReader();
+
+            while (Datareader.Read())
+            {
+                int id = Convert.ToInt16(Datareader["MouwSplitID"]);
+                string omschrijving = Convert.ToString(Datareader["MouwSplit"]);
+
+                Mouwsplit mouwsplit = new Mouwsplit(id, omschrijving);
+                gegevens.Add(mouwsplit);
+            }
+
+            conn.Close();
+
+            return gegevens;
+        }
 
 
 

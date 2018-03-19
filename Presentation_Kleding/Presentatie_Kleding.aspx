@@ -55,7 +55,7 @@
 							<div class="container">
 								<div class="overlay">
 									<div class="text">
-									 Kraag
+									 <button id="btnKraag" type ="button">Kraag</button>
 									</div>
 								</div>
 								<img src="img\klassiek_1_deligVierkant.png" alt="">

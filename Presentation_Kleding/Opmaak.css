@@ -24,8 +24,8 @@ h1,
 h2,
 p,
 img {
-	margin: 0;
 	padding: 0;
+    margin-left: 0;
 }
 
 body {
@@ -402,8 +402,7 @@ fieldset button {
 	color: white;
 	font-size: 15px;
 	text-align: center;
-	margin-top:34px;
-}
+	}
 .container img
 {
 	width: 98px;
