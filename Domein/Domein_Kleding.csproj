@@ -63,6 +63,8 @@
     <Compile Include="Persistence\Persistence.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Business\Stof.cs" />
+    <Compile Include="Business\Snit.cs" />
+    <Compile Include="Business\Zoom.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram Kleidng.cd" />

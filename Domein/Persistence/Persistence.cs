@@ -442,6 +442,62 @@ namespace Domein
             return gegevens;
         }
 
+        public List<Snit> getSnit()
+        {
+            List<Snit> gegevens = new List<Snit>();
+
+            MySqlConnection conn = new MySqlConnection(_connectionstring);
+
+            MySqlCommand cmd = new MySqlCommand("SELECT * FROM itn_kledingconf.tblsnit;", conn);
+
+            conn.Open();
+
+            MySqlDataReader Datareader = cmd.ExecuteReader();
+
+            while (Datareader.Read())
+            {
+                int id = Convert.ToInt16(Datareader["SnitID"]);
+                string omschrijving = Convert.ToString(Datareader["Snit"]);
+
+                Snit snit = new Snit(id, omschrijving);
+                gegevens.Add(snit);
+            }
+
+            conn.Close();
+
+            return gegevens;
+        }
+
+        public List<Zoom> getZoom()
+        {
+            List<Zoom> gegevens = new List<Zoom>();
+
+            MySqlConnection conn = new MySqlConnection(_connectionstring);
+
+            MySqlCommand cmd = new MySqlCommand("SELECT * FROM itn_kledingconf.tblzoom;", conn);
+
+            conn.Open();
+
+            MySqlDataReader Datareader = cmd.ExecuteReader();
+
+            while (Datareader.Read())
+            {
+                int id = Convert.ToInt16(Datareader["ZoomID"]);
+                string omschrijving = Convert.ToString(Datareader["Zoom"]);
+
+                Zoom zoom = new Zoom(id, omschrijving);
+                gegevens.Add(zoom);
+            }
+
+            conn.Close();
+
+            return gegevens;
+        }
+
+
+
+
+
         public Persistence()
         {
             _connectionstring = "user id = root; server = localhost; database = itn_kledingconf; password = WN5945wu";
