@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Domein
 {
-    class Business
+    public class Business
     {
         private Bestelling _bestelling;
         private Borduur _borduur;
@@ -27,11 +27,12 @@ namespace Domein
         private Kleur _kleur;
         private Persistence _persistence;
     
-
-        public List<Kraag> getKraag()
+        public List<Kraag> getTest()
         {
             return _persistence.getKraag();
         }
+
+       
 
 
         public Business()
@@ -53,7 +54,7 @@ namespace Domein
             _rug = new Rug();
             _stof = new Stof();
             _kleur = new Kleur();
-            _persistence = new Domein.Persistence();
+            _persistence = new Persistence();
         }
     }
 }
