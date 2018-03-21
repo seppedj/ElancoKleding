@@ -25,6 +25,7 @@ namespace Domein
             set { _type = value; }
         }
 
+
         public string Contrast
         {
             get { return _contrast; }

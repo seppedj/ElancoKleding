@@ -29,10 +29,21 @@ namespace Domein
     
         public List<Kraag> getTest()
         {
+            
             return _persistence.getKraag();
         }
 
-       
+        
+        private List<string> OmzettenToString(List<Kraag> lijstkraag)
+        {
+            List<string> lijstReturn = new List<string>();
+            foreach (Kraag e in _persistence.getKraag())
+            {
+                lijstReturn.Add(e.ToString());
+            }
+            return lijstReturn;
+        }
+
 
 
         public Business()

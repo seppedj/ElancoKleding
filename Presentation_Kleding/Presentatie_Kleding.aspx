@@ -122,6 +122,9 @@
 							</div>
 							<div class="knoop">
 							</div>
+                            <asp:Button ID="btnTest01" runat="server" Text="Test 01" />
+							<asp:Button ID="btnTest02" runat="server" Text="Test 02" />
+                            <asp:ListBox ID="lstTest01" runat="server"></asp:ListBox>
 							<div class="epaulet">
 							</div>
 							<div class="mouw">
