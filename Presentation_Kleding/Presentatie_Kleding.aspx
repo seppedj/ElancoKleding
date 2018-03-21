@@ -41,7 +41,8 @@
 			</div>
 			<div id="content">
 				<div id="txt">
-					<h2>Kledingconfigurator</h2>
+					<h2>Kledingconfigurator</h2><asp:Button ID="btnTest" runat="server" Text="Test" OnClick="btnTest_Click"/>
+                    <asp:Label ID="lblTest" runat="server" Text="..."></asp:Label>
 					<div class="conf">
 						<div class="ItemKeuze">
                             <div class="container">
@@ -91,7 +92,7 @@
 									</div>
 								</div>
 								<img src="img\schouderepauletEvenwijdigVierkant.png" alt="">
-							    <asp:Label ID="lblTest" runat="server" Text="..."></asp:Label>
+							    
 							</div>
 							<div class="container">
 								<div class="overlay">
@@ -141,6 +142,9 @@
 			<li><a class="active" href="#" title="Kledingconfigurator">Kledingconfigurator</a></li>
 		</ul>
 	</div>
+
+        <br />
+        <br />
     </form>
 </body>
 
