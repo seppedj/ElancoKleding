@@ -32,7 +32,7 @@ namespace Presentation_Kleding
 
             foreach (var gegeven in _business.getTest())
             {
-                lstTest01.Items.Add(gegeven);
+                lstTest01.Items.Add(gegeven.ToString());
             }
 
             lblTest.Text = "hallooo jk dsj sdjxk dsbsjhbsfjb sjh bs bdsk di dg i";
