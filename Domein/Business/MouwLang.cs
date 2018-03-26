@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Domein
 {
-        class LangeMouw
+        public class LangeMouw
         {
             private int _langewouwID;
 

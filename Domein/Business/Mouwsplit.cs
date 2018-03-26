@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Domein
 {
-    class Mouwsplit
+    public class Mouwsplit
     {
         private int _mouwsplitID;
 

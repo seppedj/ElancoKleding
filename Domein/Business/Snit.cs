@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Domein
 {
-    class Snit
+   public class Snit
     {
         private int _snitID;
 

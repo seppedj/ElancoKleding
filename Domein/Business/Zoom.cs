@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Domein
 {
-    class Zoom
+    public class Zoom
     {
         private int _zoomID;
 

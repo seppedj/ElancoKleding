@@ -18,7 +18,8 @@ namespace Domein
         private Knoop _knoop;
         private Knoopsluiting _knoopsluiting;
         private Kraag _kraag;
-        private Mouw _mouw;
+        private LangeMouw _langemouw;
+        private KorteMouw _kortemouw;
         private Ontwerp _ontwerp;
         private Polsboord _polsboord;
         private Postcode _postcode;
@@ -65,10 +66,38 @@ namespace Domein
 
         public List<KorteMouw> getKorteMouw()
         {
-
+            return _persistence.getKorteMouw();
         }
 
+        public List<LangeMouw> getLangeMouw()
+        {
+            return _persistence.getLangeMouw();
+        }
+
+        public List<Mouwsplit> getMouwsplit()
+        {
+            return _persistence.getMouwSplit();
+        }
+
+        public List<Polsboord> getPolsboord()
+        {
+            return _persistence.getPolsboord();
+        }
+
+        public List<Rug> getRug()
+        {
+            return _persistence.getRug();
+        }
+
+        public List<Snit> getSnit()
+        {
+            return _persistence.getSnit();
+        }
         
+        public List<Zoom> getZoom()
+        {
+            return _persistence.getZoom();
+        }
 
 
 
