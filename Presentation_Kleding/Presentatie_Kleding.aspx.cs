@@ -43,5 +43,20 @@ namespace Presentation_Kleding
 		{
 
 		}
+
+		protected void btnHemd_Click1(object sender, EventArgs e)
+		{
+			btnHemd.Visible = false;
+		}
+
+		protected void btnKraag_Click(object sender, EventArgs e)
+		{
+			btnHemd.Visible = false;
+		}
+
+		protected void btnBortszak_Click(object sender, EventArgs e)
+		{
+
+		}
 	}
 }

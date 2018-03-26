@@ -49,7 +49,7 @@
                                 <div class="overlay" >
                                     <div class="text" >	
 																			
-                                    	<asp:Button ID="btnHemd" runat="server" Text="Hemd" BackColor="#010429" Font-Bold="False" Font-Names="Verdana" ForeColor="White" />
+                                    	<asp:Button ID="btnHemd" runat="server" Text="Hemd" BackColor="#010429" BorderColor="#010429" BorderWidth="30px" Font-Bold="False" Font-Names="Verdana" ForeColor="White" Height="100px" OnClick="btnHemd_Click1" Width="97px" />
 																			
                                     </div>
                                 </div>
@@ -58,7 +58,7 @@
 							<div class="container">
 								<div class="overlay">
 									<div class="text">
-									 <button id="btnKraag" type ="button">Kraag</button>
+										<asp:Button ID="btnKraag" runat="server" Text="Kraag" BackColor="#010429" BorderColor="#010429" ForeColor="White" Height="97px" OnClick="btnKraag_Click" Width="94px" />
 									</div>
 								</div>
 								<img src="img\klassiek_1_deligVierkant.png" alt="">
@@ -66,7 +66,9 @@
 							<div class="container">
 								<div class="overlay">
 									<div class="text">
-										Borstzak
+										
+										<asp:Button ID="btnBortszak" runat="server" Height="100px" Text="Borstzak" Width="86px" BackColor="#010429" BorderColor="#010429" ForeColor="White" OnClick="btnBortszak_Click" />
+										
 									</div>
 								</div>
 								<img src="img\borstzakVierkant.png" alt="">
@@ -74,7 +76,7 @@
 							<div class="container">
 								<div class="overlay">
 									<div class="text">
-										Knoopsluiting
+										<asp:Button ID="btnKnoopsluiting" runat="server" Text="Knoopsluiting" BackColor="#010429" BorderColor="#010429" ForeColor="White" Height="96px" Width="96px" />
 									</div>
 								</div>
 								<img src="#" alt="">
@@ -82,7 +84,7 @@
 							<div class="container">
 								<div class="overlay">
 									<div class="text">
-										Knoop
+										<asp:Button ID="btnKnoop" runat="server" Height="95px" Text="Knoop" Width="95px" BackColor="#010429" BorderColor="#010429" ForeColor="White" />
 									</div>
 								</div>
 								<img src="#" alt="">
