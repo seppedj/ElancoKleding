@@ -126,6 +126,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Presentatie_Kleding.aspx" />
+    <Content Include="TestGrid.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -137,6 +138,13 @@
       <DependentUpon>Presentatie_Kleding.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TestGrid.aspx.cs">
+      <DependentUpon>TestGrid.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TestGrid.aspx.designer.cs">
+      <DependentUpon>TestGrid.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Domein\Domein_Kleding.csproj">

@@ -13,7 +13,7 @@ namespace Test02
         {
             Domein.Business _business = new Business();
 
-            List<Kraag> gegevens = _business.getTest();
+            List<Kraag> gegevens = _business.getKraag();
 
             foreach(var gegeven in gegevens)
             {

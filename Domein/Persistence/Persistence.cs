@@ -249,8 +249,9 @@ namespace Domein
             {
                 int id = Convert.ToInt16(Datareader["KraagID"]);
                 string omschrijving = Convert.ToString(Datareader["Kraag"]);
+                string foto = Convert.ToString(Datareader["KraagFoto"]);
 
-                Kraag Kraag = new Kraag(id, omschrijving);
+                Kraag Kraag = new Kraag(id, omschrijving, foto);
                 gegevens.Add(Kraag);
             }
 
