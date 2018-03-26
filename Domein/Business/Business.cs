@@ -27,22 +27,48 @@ namespace Domein
         private Kleur _kleur;
         private Persistence _persistence;
     
-        public List<Kraag> getTest()
+        public List<Kraag> getKraag()
         {
             
             return _persistence.getKraag();
         }
 
-        
-        private List<string> OmzettenToString(List<Kraag> lijstkraag)
+        public List<Borduur> getBorduur()
         {
-            List<string> lijstReturn = new List<string>();
-            foreach (Kraag e in _persistence.getKraag())
-            {
-                lijstReturn.Add(e.ToString());
-            }
-            return lijstReturn;
+            return _persistence.getBorduring();
         }
+
+        public List<Borstzak> getBorstzak()
+        {
+            return _persistence.getBorstzak();
+        }
+
+        public List<Borstzakklep> getBorstzakKlep()
+        {
+            return _persistence.getBorstzakKlep();
+        }
+
+        public List<Design> getDesign()
+        {
+            return _persistence.getDesign();
+        }
+
+        public List<Epaulet> getSchouder()
+        {
+            return _persistence.getEpaulet();
+        }
+
+        public List<Knoopsluiting> getKnoopsluiting()
+        {
+            return _persistence.getKnoopsluiting();
+        }
+
+        public List<KorteMouw> getKorteMouw()
+        {
+
+        }
+
+        
 
 
 
