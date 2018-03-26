@@ -14,8 +14,7 @@ namespace Presentation_Kleding
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            btnTest01.Visible = false;
-            btnTest02.Visible = false;
+            
         }
         Business _business = new Business();
 
@@ -30,17 +29,19 @@ namespace Presentation_Kleding
         {
             
 
-            foreach (var gegeven in _business.getTest())
-            {
-                lstTest01.Items.Add(gegeven.ToString());
-            }
-
-            lblTest.Text = "hallooo jk dsj sdjxk dsbsjhbsfjb sjh bs bdsk di dg i";
-            btnTest01.Visible = true;
-            btnTest02.Visible = true;
 
             
             
         }
-    }
+
+		protected void ImageButton1_Click(object sender, ImageClickEventArgs e)
+		{
+
+		}
+
+		protected void Button1_Click(object sender, EventArgs e)
+		{
+
+		}
+	}
 }
