@@ -92,7 +92,7 @@
 							<div class="container">
 								<div class="overlay">
 									<div class="text">
-										Epaulet
+										<asp:Button ID="btnEpaulet" runat="server" Text="Epaulet" BackColor="#010429" BorderColor="#010429" ForeColor="White" Height="95px" Width="94px" />
 									</div>
 								</div>
 								<img src="img\schouderepauletEvenwijdigVierkant.png" alt="">
@@ -101,7 +101,7 @@
 							<div class="container">
 								<div class="overlay">
 									<div class="text">
-										Mouw
+										<asp:Button ID="btnMouw" runat="server" BackColor="#010429" BorderColor="#010429" ForeColor="White" Text="Mouw" Height="85px" Width="90px" />
 									</div>
 								</div>
 								<img src="img\polsboord_afgerondVierkant.png" alt="">

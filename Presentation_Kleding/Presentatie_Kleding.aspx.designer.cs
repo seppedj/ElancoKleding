@@ -85,6 +85,24 @@ namespace Presentation_Kleding {
         protected global::System.Web.UI.WebControls.Button btnKnoop;
         
         /// <summary>
+        /// btnEpaulet control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnEpaulet;
+        
+        /// <summary>
+        /// btnMouw control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnMouw;
+        
+        /// <summary>
         /// imgbtnTEST control.
         /// </summary>
         /// <remarks>
