@@ -27,11 +27,10 @@ namespace Presentation_Kleding
 
         protected void btnTest_Click(object sender, EventArgs e)
         {
-            
-
-
-            
-            
+            foreach(var gegeven in _business.getKraag())
+            {
+                imgbtnTEST.ImageUrl = gegeven.ToString();
+            }
         }
 
 		protected void ImageButton1_Click(object sender, ImageClickEventArgs e)
@@ -46,17 +45,81 @@ namespace Presentation_Kleding
 
 		protected void btnHemd_Click1(object sender, EventArgs e)
 		{
-			btnHemd.Visible = false;
+            lstUitvoer.Items.Clear();
+            foreach(var geg in _business.getDesign())
+            {
+                lstUitvoer.Items.Add(geg.ToString());
+            }
+
+            
 		}
 
 		protected void btnKraag_Click(object sender, EventArgs e)
 		{
-			btnHemd.Visible = false;
-		}
+            lstUitvoer.Items.Clear();
+            foreach (var geg in _business.getKraag())
+            {
+                lstUitvoer.Items.Add(geg.ToString());
+            }
+        }
 
 		protected void btnBortszak_Click(object sender, EventArgs e)
 		{
-
+            lstUitvoer.Items.Clear();
+            foreach(var geg in _business.getBorstzak())
+            {
+                lstUitvoer.Items.Add(geg.ToString());
+            }
 		}
-	}
+
+        protected void btnKnoopsluiting_Click(object sender, EventArgs e)
+        {
+            lstUitvoer.Items.Clear();
+            foreach (var geg in _business.getKnoopsluiting())
+            {
+                lstUitvoer.Items.Add(geg.ToString());
+            }
+        }
+
+        protected void btnEpaulet_Click(object sender, EventArgs e)
+        {
+            lstUitvoer.Items.Clear();
+            foreach (var geg in _business.getSchouder())
+            {
+                lstUitvoer.Items.Add(geg.ToString());
+            }
+        }
+
+        protected void btnMouw_Click(object sender, EventArgs e)
+        {
+            lstUitvoer.Items.Clear();
+            foreach (var geg in _business.getLangeMouw())
+            {
+                lstUitvoer.Items.Add(geg.ToString());
+            }
+
+            
+            foreach (var geg in _business.getKorteMouw())
+            {
+                lstUitvoer.Items.Add(geg.ToString());
+            }
+
+            
+            foreach (var geg in _business.getMouwsplit())
+            {
+                lstUitvoer.Items.Add(geg.ToString());
+            }
+
+            lstUitvoer.Items.Clear();
+            foreach (var geg in _business.getPolsboord())
+            {
+                lstUitvoer.Items.Add(geg.ToString());
+            }
+        }
+
+        protected void imgbtnTEST_Click(object sender, ImageClickEventArgs e)
+        {
+            
+        }
+    }
 }

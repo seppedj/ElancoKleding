@@ -76,7 +76,7 @@
 							<div class="container">
 								<div class="overlay">
 									<div class="text">
-										<asp:Button ID="btnKnoopsluiting" runat="server" Text="Knoopsluiting" BackColor="#010429" BorderColor="#010429" ForeColor="White" Height="96px" Width="96px" />
+										<asp:Button ID="btnKnoopsluiting" runat="server" Text="Knoopsluiting" BackColor="#010429" BorderColor="#010429" ForeColor="White" Height="96px" Width="96px" OnClick="btnKnoopsluiting_Click" />
 									</div>
 								</div>
 								<img src="#" alt="">
@@ -92,7 +92,7 @@
 							<div class="container">
 								<div class="overlay">
 									<div class="text">
-										<asp:Button ID="btnEpaulet" runat="server" Text="Epaulet" BackColor="#010429" BorderColor="#010429" ForeColor="White" Height="95px" Width="94px" />
+										<asp:Button ID="btnEpaulet" runat="server" Text="Epaulet" BackColor="#010429" BorderColor="#010429" ForeColor="White" Height="95px" Width="94px" OnClick="btnEpaulet_Click" />
 									</div>
 								</div>
 								<img src="img\schouderepauletEvenwijdigVierkant.png" alt="">
@@ -101,7 +101,7 @@
 							<div class="container">
 								<div class="overlay">
 									<div class="text">
-										<asp:Button ID="btnMouw" runat="server" BackColor="#010429" BorderColor="#010429" ForeColor="White" Text="Mouw" Height="85px" Width="90px" />
+										<asp:Button ID="btnMouw" runat="server" BackColor="#010429" BorderColor="#010429" ForeColor="White" Text="Mouw" Height="85px" Width="90px" OnClick="btnMouw_Click" />
 									</div>
 								</div>
 								<img src="img\polsboord_afgerondVierkant.png" alt="">
@@ -119,7 +119,8 @@
 							<div class="hemd">
 							</div>
 							<div class="kraag">
-								<asp:ImageButton ID="imgbtnTEST" runat="server" Height="33px" />
+								<asp:ImageButton ID="imgbtnTEST" runat="server" Height="33px" OnClick="imgbtnTEST_Click" />
+							    <asp:ListBox ID="lstUitvoer" runat="server" Height="108px" Width="614px"></asp:ListBox>
 							</div>
 							<div class="borstzak">
 							</div>
