@@ -120,7 +120,11 @@
 							</div>
 							<div class="kraag">
 								<asp:ImageButton ID="imgbtnTEST" runat="server" Height="33px" OnClick="imgbtnTEST_Click" />
-							    <asp:ListBox ID="lstUitvoer" runat="server" Height="108px" Width="614px"></asp:ListBox>
+							    <asp:Button ID="btnKorteMouw" runat="server" OnClick="btnKorteMouw_Click" Text="Korte Mouw" />
+                                <asp:Button ID="btnLangeMouw" runat="server" OnClick="btnLangeMouw_Click" Text="Lange Mouw" />
+                                <asp:Button ID="btnMouwsplit" runat="server" OnClick="btnMouwsplit_Click" Text="MouwSplit" />
+                                <asp:Button ID="btnPolsboord" runat="server" OnClick="btnPolsboord_Click" Text="Polsboord" />
+							    <asp:ListBox ID="lstUitvoer" runat="server" Height="108px" Width="285px"></asp:ListBox>
 							</div>
 							<div class="borstzak">
 							</div>
