@@ -58,11 +58,11 @@ namespace Domein
              
         //}
         //constructors
-        public Kraag(int pID, string pKraag,  string pFoto)
+        public Kraag(int pID, string pKraag)
         {
             _kraagID = pID;
             _type = pKraag;
-            _foto = pFoto;
+            
         }
 
         public Kraag()

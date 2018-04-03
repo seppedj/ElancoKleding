@@ -51,7 +51,7 @@ namespace Presentation_Kleding
 		{
             lstUitvoer.Visible = true;
             lstUitvoer.Items.Clear();
-            foreach(var geg in _business.getDesign())
+            foreach(var geg in _business.getSnit())
             {
                 lstUitvoer.Items.Add(geg.ToString());
             }
@@ -118,7 +118,7 @@ namespace Presentation_Kleding
             btnLangeMouw.Visible = true;
             btnKorteMouw.Visible = true;
             btnMouwsplit.Visible = true;
-            btnPolsboord.Visible = true;
+            btnPolsboord.Visible = false;
             lstUitvoer.Visible = true;
             foreach (var geg in _business.getKorteMouw())
             {
@@ -147,6 +147,7 @@ namespace Presentation_Kleding
             btnMouwsplit.Visible = true;
             btnPolsboord.Visible = true;
             lstUitvoer.Visible = true;
+            lstUitvoer.Items.Clear();
             foreach (var geg in _business.getMouwsplit())
             {
                 lstUitvoer.Items.Add(geg.ToString());

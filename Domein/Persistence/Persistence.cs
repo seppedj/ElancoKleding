@@ -249,9 +249,9 @@ namespace Domein
             {
                 int id = Convert.ToInt16(Datareader["KraagID"]);
                 string omschrijving = Convert.ToString(Datareader["Kraag"]);
-                string foto = Convert.ToString(Datareader["KraagFoto"]);
+                
 
-                Kraag Kraag = new Kraag(id, omschrijving, foto);
+                Kraag Kraag = new Kraag(id, omschrijving);
                 gegevens.Add(Kraag);
             }
 
@@ -449,7 +449,7 @@ namespace Domein
 
             MySqlConnection conn = new MySqlConnection(_connectionstring);
 
-            MySqlCommand cmd = new MySqlCommand("SELECT * FROM itn_kledingconf.tblsnit;", conn);
+            MySqlCommand cmd = new MySqlCommand("SELECT * FROM itn_kledingconf.tblSnit;", conn);
 
             conn.Open();
 
@@ -520,7 +520,6 @@ namespace Domein
 
             return gegevens;
         }
-
 
 
         public Persistence()
