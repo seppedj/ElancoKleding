@@ -41,7 +41,7 @@
 			</div>
 			<div id="content">
 				<div id="txt">
-					<h2>Kledingconfigurator</h2><asp:Button ID="btnTest" runat="server" Text="Test" OnClick="btnTest_Click"/>
+					<h2>Kledingconfigurator</h2><asp:Button ID="btnTest" runat="server" Text="Test" OnClick="btnTest_Click" CssClass="positieKraag"/>
                     <asp:Label ID="lblTest" runat="server" Text="..."></asp:Label>
 					<div class="conf">
 						<div class="ItemKeuze">
@@ -114,9 +114,20 @@
 								</div>
 								<img src="#" alt="">
 							</div>
+                            <div class="container">
+                            <div class="overlay" >
+                                    <div class="text" >	
+																			
+                                    	<asp:Button ID="btnStof" runat="server" Text="Stof" BackColor="#010429" BorderColor="#010429" BorderWidth="30px" Font-Bold="False" Font-Names="Verdana" ForeColor="White" Height="100px" OnClick="btnHemd_Click1" Width="97px" />
+																			
+                                    </div>
+                                </div>
+                                </div>
 						</div>
 						<div class="voorbeeld">
 							<div class="hemd">
+							    <asp:Button ID="Button1" runat="server" Text="Test"/>
+							    <asp:Label ID="Label1" runat="server" CssClass="plaatsKraag" Text="testtt"></asp:Label>
 							</div>
 							<div class="kraag">
 							    <asp:Button ID="btnKorteMouw" runat="server" OnClick="btnKorteMouw_Click" Text="Korte Mouw" />

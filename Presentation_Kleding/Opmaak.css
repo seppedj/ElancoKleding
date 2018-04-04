@@ -417,4 +417,11 @@ fieldset button {
 	box-sizing: border-box;
 }
 
+.plaatsKraag
+{
+    position: fixed;
+    top: 1000px;
+    left: 500px;
+}
+
 
