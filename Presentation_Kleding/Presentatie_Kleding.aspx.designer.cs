@@ -166,6 +166,24 @@ namespace Presentation_Kleding {
         protected global::System.Web.UI.WebControls.Button btnPolsboord;
         
         /// <summary>
+        /// btnKatoen control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnKatoen;
+        
+        /// <summary>
+        /// btnPolyester control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnPolyester;
+        
+        /// <summary>
         /// lstUitvoer control.
         /// </summary>
         /// <remarks>

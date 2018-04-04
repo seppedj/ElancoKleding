@@ -118,7 +118,7 @@
                             <div class="overlay" >
                                     <div class="text" >	
 																			
-                                    	<asp:Button ID="btnStof" runat="server" Text="Stof" BackColor="#010429" BorderColor="#010429" BorderWidth="30px" Font-Bold="False" Font-Names="Verdana" ForeColor="White" Height="100px" OnClick="btnHemd_Click1" Width="97px" />
+                                    	<asp:Button ID="btnStof" runat="server" Text="Stof" BackColor="#010429" BorderColor="#010429" BorderWidth="30px" Font-Bold="False" Font-Names="Verdana" ForeColor="White" Height="100px" OnClick="btnStof_Click1" Width="97px" />
 																			
                                     </div>
                                 </div>
@@ -134,6 +134,8 @@
                                 <asp:Button ID="btnLangeMouw" runat="server" OnClick="btnLangeMouw_Click" Text="Lange Mouw" />
                                 <asp:Button ID="btnMouwsplit" runat="server" OnClick="btnMouwsplit_Click" Text="MouwSplit" />
                                 <asp:Button ID="btnPolsboord" runat="server" OnClick="btnPolsboord_Click" Text="Polsboord" />
+							    <asp:Button ID="btnKatoen" runat="server" OnClick="btnKatoen_Click" Text="Katoen" />
+                                <asp:Button ID="btnPolyester" runat="server" OnClick="btnPolyester_Click" Text="Polyester" />
 							    <asp:ListBox ID="lstUitvoer" runat="server" Height="108px" Width="285px"></asp:ListBox>
 							</div>
 							<div class="borstzak">

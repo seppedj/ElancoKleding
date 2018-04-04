@@ -19,6 +19,8 @@ namespace Presentation_Kleding
             btnMouwsplit.Visible = false;
             btnPolsboord.Visible = false;
             lstUitvoer.Visible = false;
+            btnKatoen.Visible = false;
+            btnPolyester.Visible = false;
         }
         Business _business = new Business();
 
@@ -163,6 +165,27 @@ namespace Presentation_Kleding
             {
                 lstUitvoer.Items.Add(geg.ToString());
             }
+        }
+
+        protected void btnPolyester_Click(object sender, EventArgs e)
+        {
+            btnKatoen.Visible = true;
+            btnPolyester.Visible = true;
+            lstUitvoer.Visible = true;
+        }
+
+        protected void btnKatoen_Click(object sender, EventArgs e)
+        {
+            btnKatoen.Visible = true;
+            btnPolyester.Visible = true;
+            lstUitvoer.Visible = true;
+        }
+
+        protected void btnStof_Click1(object sender, EventArgs e)
+        {
+            btnKatoen.Visible = true;
+            btnPolyester.Visible = true;
+            
         }
     }
 }
