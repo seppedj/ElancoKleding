@@ -524,7 +524,7 @@ namespace Domein
 
         public Persistence()
         {
-            _connectionstring = "user id = root; server = localhost; database = itn_kledingconf; password = WN5945wu";
+            _connectionstring = "server = localhost; user id = root; database = itn_kledingconf; password = WN5945wu";
         }
     }
 }

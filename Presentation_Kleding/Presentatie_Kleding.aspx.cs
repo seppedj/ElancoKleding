@@ -31,10 +31,7 @@ namespace Presentation_Kleding
 
         protected void btnTest_Click(object sender, EventArgs e)
         {
-            foreach(var gegeven in _business.getKraag())
-            {
-                imgbtnTEST.ImageUrl = gegeven.ToString();
-            }
+            
         }
 
 		protected void ImageButton1_Click(object sender, ImageClickEventArgs e)

@@ -119,7 +119,6 @@
 							<div class="hemd">
 							</div>
 							<div class="kraag">
-								<asp:ImageButton ID="imgbtnTEST" runat="server" Height="33px" OnClick="imgbtnTEST_Click" />
 							    <asp:Button ID="btnKorteMouw" runat="server" OnClick="btnKorteMouw_Click" Text="Korte Mouw" />
                                 <asp:Button ID="btnLangeMouw" runat="server" OnClick="btnLangeMouw_Click" Text="Lange Mouw" />
                                 <asp:Button ID="btnMouwsplit" runat="server" OnClick="btnMouwsplit_Click" Text="MouwSplit" />
