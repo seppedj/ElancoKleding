@@ -28,6 +28,10 @@ img {
     margin-left: 0;
 }
 
+.voorbeeld{
+	float:right;
+}
+
 body {
 	margin: 0;
 	padding: 0;
@@ -415,13 +419,6 @@ fieldset button {
 	height: 648px;
 	border: 1px solid #010429;
 	box-sizing: border-box;
-}
-
-.plaatsKraag
-{
-    position: fixed;
-    top: 1000px;
-    left: 500px;
 }
 
 

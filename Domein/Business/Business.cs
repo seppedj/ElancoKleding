@@ -113,8 +113,7 @@ namespace Domein
             _knoop = new Knoop();
             _knoopsluiting = new Knoopsluiting();
             _kraag = new Kraag();
-            _langemouw = new LangeMouw();
-            _kortemouw = new KorteMouw();
+            //_mouw = new Mouw();
             _ontwerp = new Ontwerp();
             _polsboord = new Polsboord();
             _postcode = new Postcode();

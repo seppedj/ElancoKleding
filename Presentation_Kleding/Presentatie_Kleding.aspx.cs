@@ -14,13 +14,7 @@ namespace Presentation_Kleding
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            btnLangeMouw.Visible = false;
-            btnKorteMouw.Visible = false;
-            btnMouwsplit.Visible = false;
-            btnPolsboord.Visible = false;
-            lstUitvoer.Visible = false;
-            btnKatoen.Visible = false;
-            btnPolyester.Visible = false;
+            
         }
         Business _business = new Business();
 
@@ -33,6 +27,10 @@ namespace Presentation_Kleding
 
         protected void btnTest_Click(object sender, EventArgs e)
         {
+            
+
+
+            
             
         }
 
@@ -48,144 +46,37 @@ namespace Presentation_Kleding
 
 		protected void btnHemd_Click1(object sender, EventArgs e)
 		{
-            lstUitvoer.Visible = true;
-            lstUitvoer.Items.Clear();
-            foreach(var geg in _business.getSnit())
-            {
-                lstUitvoer.Items.Add(geg.ToString());
-            }
-
-            
+			btnHemd.Visible = false;
 		}
 
 		protected void btnKraag_Click(object sender, EventArgs e)
 		{
-            lstUitvoer.Visible = true;
-            lstUitvoer.Items.Clear();
-            foreach (var geg in _business.getKraag())
-            {
-                lstUitvoer.Items.Add(geg.ToString());
-            }
-        }
+			btnHemd.Visible = false;
+		}
 
 		protected void btnBortszak_Click(object sender, EventArgs e)
 		{
 
-            lstUitvoer.Visible = true;
-            lstUitvoer.Items.Clear();
-            foreach(var geg in _business.getBorstzak())
-            {
-                lstUitvoer.Items.Add(geg.ToString());
-            }
 		}
 
-        protected void btnKnoopsluiting_Click(object sender, EventArgs e)
-        {
-            lstUitvoer.Visible = true;
-            lstUitvoer.Items.Clear();
-            foreach (var geg in _business.getKnoopsluiting())
-            {
-                lstUitvoer.Items.Add(geg.ToString());
-            }
-        }
+		protected void btnKnoopsluiting_Click(object sender, EventArgs e)
+		{
 
-        protected void btnEpaulet_Click(object sender, EventArgs e)
-        {
-            lstUitvoer.Visible = true;
-            lstUitvoer.Items.Clear();
-            foreach (var geg in _business.getSchouder())
-            {
-                lstUitvoer.Items.Add(geg.ToString());
-            }
-        }
+		}
 
-        protected void btnMouw_Click(object sender, EventArgs e)
-        {
-            btnPolsboord.Visible = true;
-            btnMouwsplit.Visible = true;
-            btnLangeMouw.Visible = true;
-            btnKorteMouw.Visible = true;
-        }
+		protected void btnKnoop_Click(object sender, EventArgs e)
+		{
 
-        protected void imgbtnTEST_Click(object sender, ImageClickEventArgs e)
-        {
-            
-        }
+		}
 
-        protected void btnKorteMouw_Click(object sender, EventArgs e)
-        {
-            btnLangeMouw.Visible = true;
-            btnKorteMouw.Visible = true;
-            btnMouwsplit.Visible = true;
-            btnPolsboord.Visible = false;
-            lstUitvoer.Visible = true;
-            foreach (var geg in _business.getKorteMouw())
-            {
-                lstUitvoer.Items.Add(geg.ToString());
-            }
-        }
+		protected void btnEpaulet_Click(object sender, EventArgs e)
+		{
 
-        protected void btnLangeMouw_Click(object sender, EventArgs e)
-        {
-            btnLangeMouw.Visible = true;
-            btnKorteMouw.Visible = true;
-            btnMouwsplit.Visible = true;
-            btnPolsboord.Visible = true;
-            lstUitvoer.Visible = true;
-            lstUitvoer.Items.Clear();
-            foreach (var geg in _business.getLangeMouw())
-            {
-                lstUitvoer.Items.Add(geg.ToString());
-            }
-        }
+		}
 
-        protected void btnMouwsplit_Click(object sender, EventArgs e)
-        {
-            btnLangeMouw.Visible = true;
-            btnKorteMouw.Visible = true;
-            btnMouwsplit.Visible = true;
-            btnPolsboord.Visible = true;
-            lstUitvoer.Visible = true;
-            lstUitvoer.Items.Clear();
-            foreach (var geg in _business.getMouwsplit())
-            {
-                lstUitvoer.Items.Add(geg.ToString());
-            }
-        }
+		protected void btnMouw_Click(object sender, EventArgs e)
+		{
 
-        protected void btnPolsboord_Click(object sender, EventArgs e)
-        {
-            btnLangeMouw.Visible = true;
-            btnKorteMouw.Visible = true;
-            btnMouwsplit.Visible = true;
-            btnPolsboord.Visible = true;
-            lstUitvoer.Visible = true;
-            lstUitvoer.Items.Clear();
-            foreach (var geg in _business.getPolsboord())
-            {
-                lstUitvoer.Items.Add(geg.ToString());
-            }
-        }
-
-        protected void btnPolyester_Click(object sender, EventArgs e)
-        {
-            btnKatoen.Visible = true;
-            btnPolyester.Visible = true;
-            lstUitvoer.Visible = true;
-        }
-
-        protected void btnKatoen_Click(object sender, EventArgs e)
-        {
-            btnKatoen.Visible = true;
-            btnPolyester.Visible = true;
-            lstUitvoer.Visible = true;
-        }
-
-        protected void btnStof_Click1(object sender, EventArgs e)
-        {
-            btnKatoen.Visible = true;
-            btnPolyester.Visible = true;
-            
-        }
-    }
+		}
+	}
 }

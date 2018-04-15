@@ -41,11 +41,11 @@
 			</div>
 			<div id="content">
 				<div id="txt">
-					<h2>Kledingconfigurator</h2><asp:Button ID="btnTest" runat="server" Text="Test" OnClick="btnTest_Click" CssClass="positieKraag"/>
+					<h2>Kledingconfigurator</h2><asp:Button ID="btnTest" runat="server" Text="Test" OnClick="btnTest_Click"/>
                     <asp:Label ID="lblTest" runat="server" Text="..."></asp:Label>
 					<div class="conf">
 						<div class="ItemKeuze">
-                            <div class="container">
+              <div class="container">
                                 <div class="overlay" >
                                     <div class="text" >	
 																			
@@ -76,7 +76,7 @@
 							<div class="container">
 								<div class="overlay">
 									<div class="text">
-										<asp:Button ID="btnKnoopsluiting" runat="server" Text="Knoopsluiting" BackColor="#010429" BorderColor="#010429" ForeColor="White" Height="96px" Width="96px" OnClick="btnKnoopsluiting_Click" />
+										<asp:Button ID="btnKnoopsluiting" runat="server" Text="Knoopsluiting" BackColor="#010429" BorderColor="#010429" ForeColor="White" Height="96px" Width="96px" />
 									</div>
 								</div>
 								<img src="#" alt="">
@@ -92,7 +92,7 @@
 							<div class="container">
 								<div class="overlay">
 									<div class="text">
-										<asp:Button ID="btnEpaulet" runat="server" Text="Epaulet" BackColor="#010429" BorderColor="#010429" ForeColor="White" Height="95px" Width="94px" OnClick="btnEpaulet_Click" />
+										<asp:Button ID="btnEpaulet" runat="server" Text="Epaulet" BackColor="#010429" BorderColor="#010429" ForeColor="White" Height="95px" Width="94px" />
 									</div>
 								</div>
 								<img src="img\schouderepauletEvenwijdigVierkant.png" alt="">
@@ -101,7 +101,7 @@
 							<div class="container">
 								<div class="overlay">
 									<div class="text">
-										<asp:Button ID="btnMouw" runat="server" BackColor="#010429" BorderColor="#010429" ForeColor="White" Text="Mouw" Height="85px" Width="90px" OnClick="btnMouw_Click" />
+										<asp:Button ID="btnMouw" runat="server" BackColor="#010429" BorderColor="#010429" ForeColor="White" Text="Mouw" Height="85px" Width="90px" />
 									</div>
 								</div>
 								<img src="img\polsboord_afgerondVierkant.png" alt="">
@@ -109,34 +109,18 @@
 							<div class="container">
 								<div class="overlay">
 									<div class="text">
-										Borduur
+										<asp:Button ID="btnBorduur" runat="server" BackColor="#010429" BorderColor="#010429" ForeColor="White" Text="Borduur" />
 									</div>
 								</div>
 								<img src="#" alt="">
 							</div>
-                            <div class="container">
-                            <div class="overlay" >
-                                    <div class="text" >	
-																			
-                                    	<asp:Button ID="btnStof" runat="server" Text="Stof" BackColor="#010429" BorderColor="#010429" BorderWidth="30px" Font-Bold="False" Font-Names="Verdana" ForeColor="White" Height="100px" OnClick="btnStof_Click1" Width="97px" />
-																			
-                                    </div>
-                                </div>
-                                </div>
 						</div>
 						<div class="voorbeeld">
 							<div class="hemd">
-							    <asp:Button ID="Button1" runat="server" Text="Test"/>
-							    <asp:Label ID="Label1" runat="server" CssClass="plaatsKraag" Text="testtt"></asp:Label>
+								<img class="voorbeeld" src="slimFitRondeManchet.jpg" alt="Hemd">
 							</div>
 							<div class="kraag">
-							    <asp:Button ID="btnKorteMouw" runat="server" OnClick="btnKorteMouw_Click" Text="Korte Mouw" />
-                                <asp:Button ID="btnLangeMouw" runat="server" OnClick="btnLangeMouw_Click" Text="Lange Mouw" />
-                                <asp:Button ID="btnMouwsplit" runat="server" OnClick="btnMouwsplit_Click" Text="MouwSplit" />
-                                <asp:Button ID="btnPolsboord" runat="server" OnClick="btnPolsboord_Click" Text="Polsboord" />
-							    <asp:Button ID="btnKatoen" runat="server" OnClick="btnKatoen_Click" Text="Katoen" />
-                                <asp:Button ID="btnPolyester" runat="server" OnClick="btnPolyester_Click" Text="Polyester" />
-							    <asp:ListBox ID="lstUitvoer" runat="server" Height="108px" Width="285px"></asp:ListBox>
+								<asp:ImageButton ID="imgbtnTEST" runat="server" Height="33px" />
 							</div>
 							<div class="borstzak">
 							</div>

@@ -11,7 +11,6 @@ namespace Domein
         //private properties
         private int _kraagID;
         private string _type;
-        private string _foto;
         private string _contrast;
         //publieke properties
         public int KraagID
@@ -24,14 +23,6 @@ namespace Domein
         {
             get { return _type; }
             set { _type = value; }
-        }
-
-       
-
-        public string Foto
-        {
-            get { return _foto; }
-            set { _foto = value; }
         }
 
 
@@ -52,17 +43,16 @@ namespace Domein
             throw new System.NotImplementedException();
         }
 
-        //public override string ToString()
-        //{
-        //    return _type;
+        public override string ToString()
+        {
+            return _type;
              
-        //}
+        }
         //constructors
         public Kraag(int pID, string pKraag)
         {
             _kraagID = pID;
             _type = pKraag;
-            
         }
 
         public Kraag()
